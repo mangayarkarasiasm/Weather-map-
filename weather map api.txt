@@ -1,0 +1,31 @@
+ASYNC AWAIT EXAMPLE::--
+json placeholder link to be fetched:
+ 
+async function getData(){
+    let res=await fetch('https://jsonplaceholder.typicode.com/posts');//json placeholder link fetch
+    let data = await res.json();
+    console.log(data);
+}
+getData();
+
+FOR FETCHING API :::::-
+OPEN WEATHER API
+
+LINK 1 :: https://home.openweathermap.org/api_keys   === to get API key 
+LINK 2 :: https://home.openweathermap.org/current    === to get the link where we have to enter the API key
+
+
+go to amasm6701 acc - > My Api key -> copy the key -> paste into LINK 2 
+
+LINK 2 :: API CALL :: `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid={API key}`
+write API key without {} and enter the actual value of API key
+
+
+if we don't get the data can use link:: https://pastebin.com/0tpa65zS
+
+FOR FETCHING MAP :::::- 
+go to leaflet.js -> tutorials -> quick start guide -> copy-paste css and js code into your code
+
+FOR ICONS ::::-
+https://pastebin.com/egU6vS8j
+add some css 
